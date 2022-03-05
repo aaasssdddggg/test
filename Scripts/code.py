@@ -5,7 +5,7 @@ import smtplib
 
 
 while(True):
-   time.sleep(1)  # 5 seconds.
+  # time.sleep(1)  # 5 seconds.
     # creates SMTP session
     # s = smtplib.SMTP('smtp.gmail.com', 587)
 
@@ -25,4 +25,4 @@ while(True):
     # s.quit()
 
     # to print the id of the records added in the collection(for debugging, this value can be observed in the heroku logs)
-    print("hi... changed.. this is a test")
+    print("now changed.. this is a test")
