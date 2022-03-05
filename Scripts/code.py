@@ -5,7 +5,7 @@ import smtplib
 
 
 while(True):
-    time.sleep(2)  # 5 seconds.
+   # time.sleep(2)  # 5 seconds.
     # creates SMTP session
     # s = smtplib.SMTP('smtp.gmail.com', 587)
 
